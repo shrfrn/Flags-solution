@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 200vh;
+}
+
+.flag {
+    position: relative;
+    
+    width: 400px;
+    height: 200px;
+
+    background-color: #fff;
+    margin: 0;
+}
+
+.swz {
+    background-color: red;
+    z-index: 2;
+}
+
+.swz div {
+    position: absolute;
+    background-color: #fff;
+}
+
+.swz .horizontal-band {
+    top: 80px;
+    left: 140px;
+    width: 120px;
+    height: 40px;
+}
+
+.swz .vertical-band {
+    top: 40px;
+    left: 180px;
+    height: 120px;
+    width: 40px;
+}
+
+.plw {
+    left: 50px;
+    top: -50px;
+
+    background-color: hsl(216, 61%, 59%);
+}
+
+.plw .circle {
+    position: absolute;
+    left: 80px;
+    top: 25px;
+
+    width: 150px;
+    height: 150px;
+    
+    background-color: #f5ed59;
+    border-radius: 50%;
+}
+
+.isr {
+    position: fixed;
+    top: 100px;
+    left: 200px;
+    z-index: 1;
+
+    background-color: rgb(250, 250, 250);
+}
+
+.isr .upper-band {
+    background-color: darkblue;
+    position: absolute;
+    top: 10px;
+    width: 100%;
+    height: 30px;
+}
+
+.isr .david-star {
+    position: absolute;
+    width: 100px;
+
+    inset: 0;
+    margin: auto;
+}
+
+.isr .lower-band {
+    background-color: darkblue;
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    height: 30px;
+}
+
+.top-flag {
+    z-index: 100;
+}
